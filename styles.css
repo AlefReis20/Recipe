@@ -1,0 +1,568 @@
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Playfair Display', serif;*/
+
+
+@media screen and (min-width: 400px) and (max-width: 743px) {
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        margin: 32px 0 12px 11px;
+    }
+
+    header p {
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        color: #4F4F4F;
+        height: 88px;
+        width: 320px;
+        display: inline-block;
+        margin-top: 12px;
+        margin-left: 12px;
+        text-align: justify;
+        vertical-align: top;
+    }
+
+    .svg {
+        width: 13px;
+        height: 8px;
+        position: relative;
+        top: 10px;
+        margin-left: 11px;
+    }
+
+    .recipe {
+        height: 213px;
+        width: 352px;
+        border-radius: 12px;
+        margin: 12px 0 20px 11px;
+    }
+
+    .icon {
+        height: 14px;
+        width: 14px;
+        display: inline-block;
+        vertical-align: text-bottom;
+        position: relative;
+        top: 7px;
+    }
+
+/*----- ASIDE -----*/
+
+    aside {
+        font-family: 'Montserrat';
+        width: 352px;
+        margin-left: 13px;
+    }
+
+    .yields p {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+        top: 3px;
+    }
+
+    .yields .color {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #F2994A;
+        display: block;
+        position: relative;
+        left: 19px;
+        top: -16px;
+    }
+
+    .time p {
+        position: relative;
+        bottom: 20px;
+        left: 18px;
+    }
+
+    .prep-time p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    .cook-time p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    .total-time p {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 10px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    
+     .time .p-bottom {
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 10px;
+        line-height: 12px;
+        color: #333333;
+        text-transform: none;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .prep-time,
+    .cook-time,
+    .total-time {
+        display: inline-block;
+        width: 111px;
+    }
+
+    /*----- NAV ----- */
+
+    nav {
+        width: 352px;
+        margin-left: 13px;
+    }
+
+    h2 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #333333;
+    }
+
+    h3 {
+        font-family: 'Playfair Display';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+    }
+
+    .second h3 {
+        margin-top: -30px;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        color: #333333;
+        text-transform: none;
+
+    }
+
+   .third h2 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333333;
+    }
+
+    .first p {
+        display: inline-block;
+        position: relative;
+        bottom: 36px;
+        left: 24px;
+        width: 352px;
+        text-transform: none;
+    }
+
+    .second p {
+        width: 300px;
+        text-align: justify;
+        text-transform: none;
+        position: relative;
+        bottom: 36px;
+        left: 24px;
+    }
+
+/*----- Step-by-Step ----- */
+
+    .third div {
+        width: 36px;
+        width: 36px;
+        height: 36px;
+        background: #F2994A;
+        border-radius: 6px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .third div span {
+        position: relative;
+        left: 10px;
+        bottom: 4px;
+    }
+
+    .third p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+        width: 300px;
+        margin-bottom: 25px;
+        text-align: justify;
+        text-transform: none;
+        width: 300px;
+        position: relative;
+        bottom: 57px;
+        left: 50px;
+        margin-bottom: -30px;
+    }
+
+    .last-child,
+    .last-child a {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #BDBDBD;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/*----- FOOTER -----*/
+
+    footer {
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+        margin-top: 129px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media screen and (min-width:750px) and (max-width: 1920px){
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 48px;
+        line-height: 64px;
+        color: #000000;
+        margin: 52px 0 12px 236px;
+    }
+
+    header p {
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 500px;
+        font-size: 14px;
+        line-height: 17px;
+        color: #4F4F4F;
+        height: 88px;
+        width: 592px;
+        display: inline-block;
+        margin-top: 12px;
+        margin-left: 12px;
+        text-align: justify;
+        vertical-align: top;
+    }
+
+    .svg {
+        width: 13px;
+        height: 8px;
+        position: relative;
+        top: 10px;
+        margin-left: 236px;
+    }
+
+    .recipe {
+        width: 969px;
+        height: 470px;
+        border-radius: 12px;
+        margin: 17px 0 48px 236px;
+    }
+
+/*----- ASIDE -----*/
+
+    aside {
+        font-family: 'Montserrat';
+        width: 216px;
+        height: 367px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 12px;
+        display: inline-block;
+        position: absolute;
+        margin-left: 985px;
+    }
+
+    .icon {
+        height: 28px;
+        width: 28px;
+        display: inline-block;
+        vertical-align: text-bottom;
+        position: relative;
+        top: 7px;
+        margin:0 0 42px 44px;
+    }
+
+    #icon-cutlery {
+       margin-top: 30px;
+    }
+
+    .yields p {
+        display: inline-block;
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .yields .color {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        color: #F2994A;
+        display: block;
+        position: relative;
+        left: 77px;
+    }
+
+    .time p {
+        position: relative;
+        bottom: 59px;
+        left: 77px;
+    }
+
+    .prep-time p {
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    .cook-time p {
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    .total-time p {
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #BDBDBD;
+        position: relative;
+    }
+
+    .time .p-bottom {
+        font-style: normal;
+        font-weight: 500px;
+        font-size: 10px;
+        line-height: 12px;
+        color: #333333;
+        text-transform: none;
+    }
+
+    .prep-time,
+    .cook-time,
+    .total-time {
+        display: inline-block;
+        width: 100%;
+        height: 92px;
+    }
+
+/*----- NAV -----*/
+
+    nav {
+        display: inline-block;
+        width: 100vw;
+        margin-left: 236px;
+    }
+
+    h2 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333333;
+    }
+    
+    .third h2 {
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333333;
+        margin: 28px 0;
+    }
+
+    h3 {
+        font-family: 'Playfair Display';
+        font-style: italic;
+        font-weight: 400px;
+        font-size: 18px;
+        line-height: 24px;
+        color: #333333;
+        margin: 20px auto;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 25px;
+        color: #333333;
+        text-transform: none;
+
+    }
+
+    .first p {
+        position: relative;
+        bottom: 23px;
+        left: 20px;
+        text-align: justify;
+    }
+
+    .second p {
+        text-align: justify;
+        text-transform: none;
+        position: relative;
+        bottom: 23px;
+        left: 20px;
+        width: 543px;
+    }
+
+/*----- Step-by-Step ----- */
+
+    .third div {
+        width: 36px;
+        height: 36px;
+        background: #F2994A;
+        border-radius: 6px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .third div span {
+        position: relative;
+        left: 10px;
+        bottom: 4px;
+    }
+
+    .third p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+        width: 300px;
+        margin-bottom: 25px;
+        text-align: justify;
+        text-transform: none;
+        width: 530px;
+        position: relative;
+        bottom: 40px;
+        left: 50px;
+    }
+
+    .last-child,
+    .last-child a {
+        font-style: italic;
+        font-weight: 400px;
+        font-size: 12px;
+        line-height: 150%;
+        color: #BDBDBD;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .last-child a:hover {
+        color: blue;
+        opacity: 0.8;
+    }
+
+/*----- FOOTER -----*/
+
+    footer {
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #828282;
+        margin-top: 129px;
+        margin-bottom: 25px;
+        cursor: pointer;
+    }
+    
+    footer a:hover {
+        color: blue;
+        opacity: 0.8;
+    }
+}
